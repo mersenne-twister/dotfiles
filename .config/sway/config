@@ -289,7 +289,6 @@ bar swaybar_command waybar
 # an umlaut to words? replacing '`'
 # hm, how to get ` then? will the go-back-in-history button need to become
 # right-fn after all?
-=======
 # bar {
 #     position top
 
