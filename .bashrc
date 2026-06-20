@@ -9,6 +9,7 @@
 
 export PATH=$PATH:/opt/android-studio
 export PATH=$PATH:/opt/aseprite
+export PATH=$PATH:/opt/bambu-studio
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -27,7 +28,7 @@ export EDITOR='helix'
 
 alias hack-mainframe='echo breaching mainframe... && sleep 3 && for i in {1..287}; do echo $i endpoints pierced && sleep .01; done'
 
-hyfetch
+# hyfetch
 
 # init sway
 # TODO: understand how the hell this works
@@ -43,7 +44,7 @@ fi
 # # alias sudo='sudo '
 # alias ls='ls --color=auto'
 # alias grep='grep --color=auto'
-# # alias hx='helix'
+alias hx='helix'
 # alias set-x-colemak='setxkbmap -layout us -variant colemak_dh'
 # # 'set-x-colemak', as typed with colemak when qwerty is selected
 # # alias dkf-z-qwksfo='setxkbmap -layout us -variant colemak_dh'

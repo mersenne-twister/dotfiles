@@ -20,6 +20,14 @@ roots = [
 [language-server.rust-analyzer.config]
 check.command = "clippy"
 # cargo.features = "all"
+# check.targets = ["x86_64-unknown-linux-gnu", "wasm32-unknown-unknown"]
+check.targets = ["x86_64-unknown-linux-gnu"]
+
+# [language-server.rust-analyzer.config.check]
+# targets = ["x86_64-unknown-linux-gnu", "wasm32-unknown-unknown"]
+
+# [language-server]
+
 
 # inlayHints.bindingModeHints.enable = false
 # inlayHints.closingBraceHints.minLines = 10
